@@ -1,13 +1,13 @@
 {
-  "main.css": "/sahilrajdk.github.io/static/css/main.8f3d2ed2.chunk.css",
-  "main.js": "/sahilrajdk.github.io/static/js/main.e374e7e6.chunk.js",
-  "main.js.map": "/sahilrajdk.github.io/static/js/main.e374e7e6.chunk.js.map",
-  "runtime~main.js": "/sahilrajdk.github.io/static/js/runtime~main.bcaa243e.js",
-  "runtime~main.js.map": "/sahilrajdk.github.io/static/js/runtime~main.bcaa243e.js.map",
-  "static/js/2.770a51f8.chunk.js": "/sahilrajdk.github.io/static/js/2.770a51f8.chunk.js",
-  "static/js/2.770a51f8.chunk.js.map": "/sahilrajdk.github.io/static/js/2.770a51f8.chunk.js.map",
-  "index.html": "/sahilrajdk.github.io/index.html",
-  "precache-manifest.99acbc921f2af55ca6b6d2591c1de754.js": "/sahilrajdk.github.io/precache-manifest.99acbc921f2af55ca6b6d2591c1de754.js",
-  "service-worker.js": "/sahilrajdk.github.io/service-worker.js",
-  "static/css/main.8f3d2ed2.chunk.css.map": "/sahilrajdk.github.io/static/css/main.8f3d2ed2.chunk.css.map"
+  "main.css": "/portfolio/static/css/main.8f3d2ed2.chunk.css",
+  "main.js": "/portfolio/static/js/main.e374e7e6.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.e374e7e6.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+  "static/js/2.770a51f8.chunk.js": "/portfolio/static/js/2.770a51f8.chunk.js",
+  "static/js/2.770a51f8.chunk.js.map": "/portfolio/static/js/2.770a51f8.chunk.js.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.079f554ab461e98e82081d260e492a69.js": "/portfolio/precache-manifest.079f554ab461e98e82081d260e492a69.js",
+  "service-worker.js": "/portfolio/service-worker.js",
+  "static/css/main.8f3d2ed2.chunk.css.map": "/portfolio/static/css/main.8f3d2ed2.chunk.css.map"
 }

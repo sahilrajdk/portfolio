@@ -8,51 +8,72 @@
 .app {
   display: flex;
   height: 100vh;
-}
-
-.sidebar {
-  background-color: var(--color-background-sidebar);
-  flex: 0 0 10%;
-  height: 100vh;
-
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  border-right: 2px solid #c8d3d5;
-  box-shadow: 0.4rem 0 5px 10px rgba(0, 0, 0, 0.2);
-  z-index: 5;
 }
 
-.sidebar a {
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(
+    -60deg,
+    rgb(136, 40, 40) 50%,
+    rgb(33, 79, 110) 50%
+  );
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.main {
   color: var(--color-text-sidebar);
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  padding-left: 5rem;
+}
+
+.sidebar__list a {
+  color: #c8d3d5;
   font-size: 1.5rem;
   margin-top: 1rem;
   text-transform: uppercase;
   text-decoration: none;
-  display: block;
-}
-.sidebar a:active,
-.sidebar a:hover {
-  color: rgb(248, 44, 44);
+  margin: 1rem 1rem;
 }
 
 .sidebar__list {
   list-style: none;
 }
 
-.main {
-  color: var(--color-text-sidebar);
-  background-color: var(--color-background-main);
-  flex: 1;
-  height: 100vh;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
+.sidebar__list a.active,
+.sidebar__list a:hover {
+  color: #dd3838;
 }
+
 .portfolio {
   padding: 2rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,12 +82,12 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   font-size: 1.5rem;
-  height: 100vh;
-  width: 70%;
+  width: 50%;
+  height: 100%;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .intro {
@@ -219,17 +240,17 @@ section {
 .portfolio__links {
   list-style: none;
   display: flex;
-  background-color: #dfe2e2;
 }
-
+.name {
+  text-align: left;
+}
 .portfolio__links li {
   text-transform: uppercase;
   margin: 1rem;
   transition: background-color 0.2s;
-
   font-size: 1.2rem;
   font-weight: bold;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   vertical-align: center;
   border-radius: 3px;
@@ -238,11 +259,12 @@ section {
 }
 
 .linotactive {
-  color: #2b2b2b;
+  color: #dd3838;
   border: 2px solid #dd3838;
 }
 
 .liactive {
   background-color: #dd3838;
   color: #ebebeb;
+  border: 2px solid #dd3838;
 }

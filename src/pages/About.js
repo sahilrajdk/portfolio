@@ -4,12 +4,12 @@ const about = () => {
   return (
     <div className="about">
       <div className="name">
-        <h2>Hello,I'm Sahil Raj </h2>
-        <h4> I'am an aspiring Front End / Full Stack Web developer.</h4>
+        <h1>Hello!, </h1>
+        <h1>I'm Sahil Raj. </h1>
+        <h4>I'am an aspiring Front End / Full Stack Web developer.</h4>
       </div>
 
       <div className="intro">
-        <h3>A short intro</h3>
         <p>
           Skilled in React Js,JavaScript,REST API's,GraphQL,Node
           Js,MongoDB,Express Js along with HTML and CSS/SASS. Im currently
